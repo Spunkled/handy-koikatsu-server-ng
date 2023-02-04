@@ -30,7 +30,7 @@ export default class HandyApiV1 implements HandyApi {
 	 * Where the pre-generated scripts are hosted
 	 * You can run generateCsv.ts to create your own scripts
 	 */
-	private readonly scriptBaseUrl = `https://www.karil.rs/handykk/${version}/`;
+	private readonly scriptBaseUrl = `https://raw.githubusercontent.com/Spunkled/handy-koikatsu-server-ng/ng/scripts/`;
 	private readonly autoThrottle = 1000;
 
 	private lastAdjust = Date.now();
